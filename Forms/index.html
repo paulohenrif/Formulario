@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="#" method="get">
+        <h1>Contact Us</h1>
+        <p class="fline">
+            <label for="iname"></label>
+            <input type="text" name="name" id="iname" placeholder="Name" required minlength="3" maxlength="15" class="fcolor"> 
+        </p>
+        <p class="fline">
+            <label for="isurname"></label>
+            <input type="text" name="surname" id="isurname" placeholder="Surname" required minlength="3" maxlength="15" class="fcolor">
+        </p> <br>
+        <p class="sline">
+            <label for="iemail"></label>
+            <input type="email" name="email" id="iemail" placeholder="Email" required class="scolor">
+        </p>
+        <p class="sline">
+            <label for="iphone"></label>
+            <input type="tel" name="phone" id="iphone" placeholder="Phone" min="10" maxlength="11" class="scolor">
+        </p>
+        <p class="tline">
+            <label for="iaddress"></label>
+            <input type="text" name="address" id="iaddress" placeholder="Addreess" class="tcolor">
+        </p>
+        <p class="tline">
+            <label for="imessage"></label>
+            <input type="text" name="message" id="imessage" placeholder="Type your message here" wrap="hard" class="focolor">
+        </p>
+        <p>
+            <input type="submit" value="To send" id="botton">
+        </p>
+    </form>
+</body>
+</html>
