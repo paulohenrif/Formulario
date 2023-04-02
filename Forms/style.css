@@ -24,7 +24,7 @@ input {
     border: none;
 }
 form {
-    width: 359px;
+    width: 459px;
     padding: 20px;
     position: absolute;
     top: 50%;
@@ -33,19 +33,22 @@ form {
 }
 .fline {
     display: inline-block;
-    
+    width: 227px;
 }
 .sline {
     display: inline-block;
+    width: 227px;
 }
 .tline {
     display: grid;
 }
 .fcolor {
     background-color: #e8eafe;
+    width: 227px;
 }
 .scolor {
     background-color: #dde0fd;
+    width: 227px;
 }
 .tcolor {
     background-color: #c6cafc;
