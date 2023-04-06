@@ -14,7 +14,7 @@ h1 {
     font-weight: 100;
     margin-bottom: 5px;
 }
-input {
+input, textarea {
     display: block;
     color: blue;
     margin : auto;
